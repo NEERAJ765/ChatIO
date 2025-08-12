@@ -1,5 +1,8 @@
-node_modules/
-
 .env
 server/.env
 chat-app/.env
+
+# Node modules
+node_modules/
+server/node_modules/
+chat-app/node_modules/
