@@ -94,7 +94,7 @@ const ChatContainer = () => {
                 {/* Avatar and timestamp */}
                 <div className="text-center text-xs">
                   <img
-                    src={isSender ? authUser?.profilePic : assets.avatar_icon}
+                    src={isSender ? authUser?.profilePic : selectedUser?.profilePic || assets.avatar_icon}
                     alt="avatar_icon not found"
                     className="w-7 rounded-full"
                   />
